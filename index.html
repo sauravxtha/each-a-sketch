@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <div class="top-area">
+      <h1>Etch A Sketch</h1>
+      <div class="input-area">
+        <div class="input">
+          <label for="grid-size">Grid size</label>
+          <input type="number" name="grid-size" id="grid-size" value="16" />
+        </div>
+        <div class="input">
+          <label for="sketch-color">Grid Color</label>
+          <input
+            type="color"
+            id="sketch-color"
+            name="sketch-color"
+            value="#ff0000"
+          />
+        </div>
+        <div class="input">
+          <label for="bg-color">Background Color</label>
+          <input type="color" id="bg-color" name="bg-color" value="#faebd7" />
+        </div>
+        <button id="reset-btn">reset</button>
+      </div>
+    </div>
+    <div class="container"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
